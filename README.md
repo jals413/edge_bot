@@ -14,4 +14,4 @@ You can either download the [testing.exe](https://github.com/jals413/edge_bot/bl
     
     
 Thanks to the contributers ❤️
-<a href="https://github.com/Low4ey/SIH/graphs/contributors"><img src="https://opencollective.com/edge_bot/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/jals413/edge_bot/graphs/contributors"><img src="https://opencollective.com/edge_bot/contributors.svg?width=890&button=false" /></a>
