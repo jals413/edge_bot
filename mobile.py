@@ -1,15 +1,13 @@
-from selenium import webdriver
+import time
+import selenium.webdriver as webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-
 from selenium.webdriver.edge.options import Options
 from selenium.webdriver.edge.service import Service
-import time
 
+user_agent = "Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM4.171019.021.D1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36 EdgA/42.0.0.2057"
 edge_Options = Options()
-
-edge_Options.add_experimental_option("detach", True)
-
+edge_Options.add_argument(f"--user-agent={user_agent}")
 
 PATH = "C:/Program Files (x86)/msedgedriver.exe"
 edge_Service = Service(PATH)
@@ -22,9 +20,15 @@ time.sleep(3)
 
 l=["hello", "hi", "netflix", "school", "amazon", "youtube", "goods", "rail", "gullible", "friend",
    "potato", "interest", "crash", "rampant", "adventurous", "slave", "star", "invention", "fail", "bocchi",
-   "summer", "rain", "nori", "mackeral", "kagejitsu", "random", "yamero", "shakespeare", "udemy", "coursera",
-   "rickroll", "amogus", "sus", "rent a girlfriend", "Jammu kashmir", "holiday spots", "my anime list", "team", "titans", "quantum"
    ]
+driver.get("https://www.bing.com/?step=signin&wlexpsignin=1")
+time.sleep(15)
+hamburger = driver.find_element(By.ID, "mHamburger")
+hamburger.click()
+# sign_in = driver.find_element(By.ID, "hb_n")
+# sign_in.click()
+time.sleep(4)
+
 
 for i in l:
     driver.get("https://www.bing.com/")
