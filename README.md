@@ -15,4 +15,4 @@ You can either download the [testing.exe](https://github.com/jals413/edge_bot/bl
     
 Thanks to the contributers ❤️
 <a href="https://github.com/Low4ey/SIH/graphs/contributors"><img src="https://opencollective.com/edge_bot/contributors.svg?width=890&button=false" /></a>
-<img src="https://avatars.githubusercontent.com/u/92173476?v=4" /></a>
+<img src="https://avatars.githubusercontent.com/u/92173476?v=4?width=890&button=false" /></a>
